@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+/*initial*/ 
+
+.totle #head #web{margin:0,auto; padding:0;}
+#web{height:850px; width:1156px;}
+#head{background-color:#a4a4a4; height:33;}  /*这个是uc修改版的css */
+#toolbar{height:37;}
+#main{height:750px; width:100%; background-color:#efefef;}
+#delete{width:50px; position:relative; top:-5px; left:8px;}
+#first{position:relative; top:3px; left:20px}
+#add{position:relative; top:4px; left:80px;}
+#save{position:relative; left:60px;}
+#home{position:relative; left:40px;}
+#go{position:relative; left:20px;}
+/*tool bar*/
+/*选择用进行排版
+#add{position:relative; top:4px; left:80px;}
+#save{position:relative; left:60px;}
+#home{position:relative; left:40px;}
+#go{position:relative; left:20px;}
+*/
+
+/*搜索框的位置*/
+.search{position:relative; top:-3px; left:600px;}
+/*
+#search{position:relative; left:px;}
+*/
